@@ -1,7 +1,13 @@
-.TWA p {
-    color: green;
+h1 {
+    color: grey;
 }
 
 .PaCT p {
+    color: green;
+    font-size: 14px;
+}
+
+.TWA p {
     color: blue;
+    font-size: 16px;
 }

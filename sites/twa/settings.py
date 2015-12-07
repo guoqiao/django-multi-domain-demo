@@ -12,10 +12,4 @@ sys.path.insert(0, SITE_ROOT)
 
 from base_settings import *
 
-ROOT_URLCONF = 'urls'
-
-STATICFILES_DIRS += (
-    SITE_ROOT/"static",
-)
-
 SITE_ID = 2
