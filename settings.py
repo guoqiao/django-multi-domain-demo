@@ -50,6 +50,8 @@ INSTALLED_APPS = (
     'switch',
 )
 
+SITE_ID = 1
+
 STATICFILES_DIRS = (
     REPO_ROOT/"static",
 )

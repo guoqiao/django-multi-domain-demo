@@ -1,10 +1,10 @@
 from django.contrib.sites.models import Site
 
-site = Site.objects.get_current()
 
 def g(request):
+    domain = request.META['HTTP_X_FORWARDED_SERVER']
+    site = Site.objects.get(domain=domain)
     ctx = {}
     ctx['site'] = site
-    domain = request.META['HTTP_X_FORWARDED_SERVER']
     ctx['domain'] = domain
     return ctx
