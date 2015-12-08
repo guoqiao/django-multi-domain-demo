@@ -1,1 +1,2 @@
-An demo to show how django support multi-site with the same set of apps
+# django-multi-domain-demo
+Visit the same Django site from different domains, get different theme, content or behave according to the domain.
